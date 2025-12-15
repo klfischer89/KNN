@@ -36,6 +36,6 @@ zz = zz.reshape(xx.shape)
 plt.contourf(xx, yy, zz, alpha = 0.5)
 plt.scatter(X_train["BMI"], X_train["Age"], c = y_train, s = 5)
 
-plt.contourf(xx, yy, zz, alpha = 0.5)
+plt.contourf(xx, yy, zz, alpha = 0.5, levels = 100)
 plt.scatter(X_test["BMI"], X_test["Age"], c = y_test, s = 5)
 plt.show()
